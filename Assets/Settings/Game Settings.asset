@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f7edd0d6de4282bd7b5f59243f9ecb, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  <LevelScopePrefab>k__BackingField: {fileID: 3235007013033358558, guid: 0724e9bc23e237448943b35760f666f2, type: 3}
+  <LevelInfos>k__BackingField:
+  - <MovesLimit>k__BackingField: 4
+    <RequiredScore>k__BackingField: 120
+    <ObstaclePoints>k__BackingField:
+    - {x: 0, y: 0}
+  - <MovesLimit>k__BackingField: 5
+    <RequiredScore>k__BackingField: 150
+    <ObstaclePoints>k__BackingField:
+    - {x: 4, y: 0}
+    - {x: -4, y: 0}
+  - <MovesLimit>k__BackingField: 7
+    <RequiredScore>k__BackingField: 210
+    <ObstaclePoints>k__BackingField:
+    - {x: 0, y: -4}
+    - {x: 0, y: 0}
+    - {x: 0, y: 4}

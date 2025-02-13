@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee41a1cf294f918dfca2ae78997ad1, type: 3}
+  m_Name: Level Settings
+  m_EditorClassIdentifier: 
+  <MovePenalty>k__BackingField: 3
+  <CameraMargin>k__BackingField: 4
+  <BubbleHandlerSettings>k__BackingField:
+    <BubblePrefab>k__BackingField: {fileID: 4906805488789861256, guid: 399423414b9375048afa2cf99e077914, type: 3}
+    <BubbleSettings>k__BackingField:
+      <GrowTime>k__BackingField: 0.04
+      <SizeStep>k__BackingField: 0.1
+      <MinimumRadius>k__BackingField: 0.5
+    <MaxDragSpeed>k__BackingField: 6
+  <ObstacleHandlerSettings>k__BackingField:
+    <ObstaclePrefab>k__BackingField: {fileID: 5388521560162391096, guid: eb1299ddb30befa489e0ae6a458afe9e, type: 3}
+    <ObstacleSettings>k__BackingField:
+      <MaxHealth>k__BackingField: 3
+      <RegenerationTime>k__BackingField: 0.4
+      <Speed>k__BackingField: 6
